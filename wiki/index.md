@@ -8,6 +8,8 @@
 
 - [[RePrompt]] — Wang, Shen, and Lim (2023): explainable prompt editing for emotion expression, with computational and human alignment evaluation.
 
+- [[A taxonomy of prompt modifiers for text-to-image generation]] — Oppenlaender (2024; online 2023): ethnographic six-category taxonomy and iterative prompt-writing practice.
+
 ## Concepts
 
 - [[Prompt engineering]]
@@ -22,6 +24,10 @@
 - [[Prompt alignment]]
 - [[Emotional expression in generated images]]
 
+- [[Quality boosters]]
+- [[Repeating and magic terms]]
+- [[Image prompts and initial images]]
+
 ## Methods and evaluation
 
 - [[Human evaluation of generated images]]
@@ -32,6 +38,8 @@
 
 - [[CLIP-based alignment evaluation]]
 - [[Explainable prompt editing]]
+
+- [[Ethnographic analysis of prompt modifiers]]
 
 ## Maintenance
 

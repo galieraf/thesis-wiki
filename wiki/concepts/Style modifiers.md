@@ -18,6 +18,10 @@ A useful thesis question is whether modifiers improve style representation while
 
 [[Best Prompts for Text-to-Image Models and How to Find Them]] evaluates combinations of style, lighting, detail, and other [[Prompt modifiers]] in Stable Diffusion v1.4. Its optimized combination ranks above a popular-keyword baseline in aesthetic preference, but the experiment does not isolate style fidelity or individual modifier effects. See [[Aesthetic quality]].
 
+## Taxonomy and overlapping functions
+
+[[A taxonomy of prompt modifiers for text-to-image generation]] places style modifiers among six categories and explicitly notes overlap with [[Quality boosters]]. Artist names, for example, may be used for perceived finish or detail as well as style. Annotate the intended role in context instead of inferring a single role from the phrase alone.
+
 ## Related pages
 
 - [[Prompt engineering]]

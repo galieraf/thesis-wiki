@@ -24,3 +24,11 @@
 - Updated [[Prompt engineering]], [[Prompt modifiers]], [[Human evaluation of generated images]], and both previously ingested paper pages with relevant cross-links.
 - Updated [[wiki/index|the index]]. Preserved the mixed ITA findings, null ranking results, small overall rating effects, emotion-dependent CLIP validity, and apparent Table 2 verb-rule typo.
 - Left all files in `raw/` unchanged.
+
+## 2026-09-21 — Ingest Oppenlaender’s modifier taxonomy
+
+- Resolved the requested filename to [[raw/papers/A taxonomy of prompt modifiers for text-to-image generation.pdf]] and created [[A taxonomy of prompt modifiers for text-to-image generation]] with journal year 2024 and online publication date 28 November 2023.
+- Expanded [[Prompt modifiers]] with the six categories and updated [[Style modifiers]] to explain overlapping functions.
+- Added [[Quality boosters]], [[Repeating and magic terms]], [[Image prompts and initial images]], and [[Ethnographic analysis of prompt modifiers]] after inspecting existing notes.
+- Updated [[wiki/index|the index]], separated intended effects from measured outcomes, and distinguished the published six-category version from the earlier description cited in [[RePrompt]].
+- Left `raw/` unchanged.

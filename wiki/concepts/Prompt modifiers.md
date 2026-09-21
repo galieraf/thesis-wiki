@@ -1,6 +1,21 @@
 # Prompt modifiers
 
-Prompt modifiers are words or phrases added to a core image description to influence generation. They can request style, lighting, detail, rendering characteristics, or other attributes. [[Style modifiers]] are one subset; a phrase such as `colorful background` also changes a requested scene attribute.
+In a narrow textual sense, prompt modifiers are words or phrases added to a core image description to influence generation. Oppenlaender’s published taxonomy uses a broader scope that also includes subject terms and image prompts. They can request style, lighting, detail, rendering characteristics, or other attributes. [[Style modifiers]] are one subset; a phrase such as `colorful background` also changes a requested scene attribute.
+
+## Six-category taxonomy
+
+[[A taxonomy of prompt modifiers for text-to-image generation]] identifies six practitioner-oriented categories through ethnographic research:
+
+| Category | Intended function |
+| --- | --- |
+| Subject terms | Specify the subject |
+| [[Style modifiers]] | Specify style, medium, technique, or artist-associated appearance |
+| [[Image prompts and initial images|Image prompts]] | Provide visual subject/style targets |
+| [[Quality boosters]] | Request perceived quality or detail |
+| [[Repeating and magic terms|Repeating terms]] | Reinforce a subject or style |
+| [[Repeating and magic terms|Magic terms]] | Encourage surprising outcomes through unusual semantic cues |
+
+These categories can overlap. They classify intended uses, not experimentally established effects. Initial images and weighting are discussed in the workflow but are not additional categories. The journal version has six categories, distinct from the earlier five-category description cited in [[RePrompt]].
 
 ## Evidence in this wiki
 
