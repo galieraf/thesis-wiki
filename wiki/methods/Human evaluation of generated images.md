@@ -21,6 +21,10 @@ The paper reports Cohen’s kappa of 0.0013, 0.13, and 0.33 in Experiments 1, 2,
 
 The authors use chi-square, Fisher’s exact, Mann–Whitney, Kruskal–Wallis, correlation, and ANOVA analyses across tasks. A nonsignificant result should be recorded as a failure to detect a difference, not proof of equivalence. Five-point ratings are ordinal; their treatment in analysis should be explicitly justified in a new study.
 
+## Pairwise set preferences in Pavlichenko and Ustalov (2023)
+
+[[Best Prompts for Text-to-Image Models and How to Find Them]] asks Toloka workers to choose the more aesthetically pleasing of two four-image sets for the same description. It uses Bradley–Terry per description and averages keyword-set ranks. This adds a relative aesthetic-preference task to the procedures above; it does not separately measure alignment or diversity. See [[Pairwise aesthetic preference ranking]] and [[Aesthetic quality]] for the protocol and quality-control assumptions.
+
 ## Adaptation for the thesis
 
 The following are proposed extensions, not a reproduced protocol from the source: collect separate ratings for subject alignment, style fidelity, and visual quality; randomize presentation; document annotator backgrounds and agreement; and analyze repeated generations without treating every rating as independent by default. Evaluate diversity separately if it is a thesis outcome.

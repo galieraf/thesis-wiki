@@ -88,6 +88,10 @@ This is an early empirical basis for [[Prompt engineering]] and [[Style modifier
 - Treat the reported seed and iteration ranges as historical hypotheses to reassess for the selected model, not universal defaults.
 - The untested realism/quality modifiers offer a direct research gap; the paper does not demonstrate that `4k` improves image quality.
 
+## Subsequent related work
+
+[[Best Prompts for Text-to-Image Models and How to Find Them]] cites this paper and searches modifier combinations in Stable Diffusion v1.4 with human aesthetic preferences and a genetic algorithm. It extends the keyword-selection question to another model and evaluation task; it does not replicate the VQGAN+CLIP wording or style-fidelity experiments.
+
 ## Related pages
 
 - [[Prompt engineering]]

@@ -14,6 +14,10 @@ Style fidelity should be distinguished from subject alignment and overall prefer
 
 A useful thesis question is whether modifiers improve style representation while weakening the requested subject. This is an implication to test, rather than an effect measured with separate alignment scores in the paper.
 
+## Related evidence on broader modifiers
+
+[[Best Prompts for Text-to-Image Models and How to Find Them]] evaluates combinations of style, lighting, detail, and other [[Prompt modifiers]] in Stable Diffusion v1.4. Its optimized combination ranks above a popular-keyword baseline in aesthetic preference, but the experiment does not isolate style fidelity or individual modifier effects. See [[Aesthetic quality]].
+
 ## Related pages
 
 - [[Prompt engineering]]

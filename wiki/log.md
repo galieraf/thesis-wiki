@@ -8,3 +8,11 @@
 - Created methods: [[Human evaluation of generated images]] and [[Factorial subject-style evaluation]].
 - Added reciprocal cross-links and populated [[wiki/index|the index]]. Flagged source count inconsistencies, low annotator agreement, and limits of transferring these findings to other models or diversity evaluation.
 - Source files in `raw/` were left unchanged.
+
+## 2026-09-21 — Ingest Pavlichenko and Ustalov (2023)
+
+- Read [[raw/papers/pavlichenko2023bestprompts.pdf]] and created [[Best Prompts for Text-to-Image Models and How to Find Them]], including generation settings, search protocol, baseline/validation ranks, and thesis relevance.
+- Inspected existing concepts and methods before adding [[Prompt modifiers]], [[Aesthetic quality]], [[Pairwise aesthetic preference ranking]], and [[Genetic optimization of prompt keywords]].
+- Updated [[Prompt engineering]], [[Style modifiers]], [[Random seeds and generation variability]], [[Human evaluation of generated images]], and [[Design Guidelines for Prompt Engineering Text-to-Image Generative Models]] with related evidence and links.
+- Updated [[wiki/index|the index]]. Distinguished relative aesthetic ranks from alignment/diversity, validation selection from final testing, and predictive keyword importance from causal effects. Recorded search-reporting and annotation limitations.
+- Source files in `raw/` were left unchanged. External code/data links are attributed to the paper and were not independently inspected.

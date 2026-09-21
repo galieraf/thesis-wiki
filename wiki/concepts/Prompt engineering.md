@@ -8,6 +8,10 @@ Prompt engineering is the systematic choice and revision of text inputs to obtai
 
 Nine wording permutations did not yield a significant difference in the paper’s outlier analysis ($p=0.55$). This supports prioritizing subject and style keywords within that particular setup, but does not prove wording is irrelevant for other prompts or architectures. The very low inter-rater kappa in this experiment is an important qualification.
 
+## Human-guided keyword search
+
+[[Best Prompts for Text-to-Image Models and How to Find Them]] extends prompt exploration to adaptive search over keyword subsets in Stable Diffusion v1.4. It uses crowd aesthetic preferences across 60 descriptions to guide a genetic algorithm, then evaluates candidates on 12 additional descriptions. See [[Prompt modifiers]] and [[Genetic optimization of prompt keywords]]. Unlike the wording-permutation study above, this changes the keywords themselves and measures set-level aesthetic preference.
+
 ## Use in the thesis
 
 Keep the prompt intervention explicit: changing a style keyword, a realism modifier, and sentence structure are different interventions. Record generation settings so their effects are not confused with wording effects. This is an experimental-design implication drawn from the paper.

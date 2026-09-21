@@ -16,6 +16,10 @@ The experiment establishes evidence of perceived differences under seed changes 
 
 A practical extension is to compare modifier conditions across repeated, recorded seeds and report variability rather than selecting one favorable image. The appropriate number of samples must be justified for the thesis experiment; the historical 3–9 recommendation alone is insufficient.
 
+## Multi-image evaluation in Pavlichenko and Ustalov (2023)
+
+[[Best Prompts for Text-to-Image Models and How to Find Them]] uses four images per description–keyword-set combination and compares whole image sets. This reduces reliance on a single displayed generation, but the paper does not specify seed control or test how many samples are sufficient. Four-image aesthetic preference is not a diversity metric. See [[Pairwise aesthetic preference ranking]].
+
 ## Related pages
 
 - [[Prompt engineering]]
