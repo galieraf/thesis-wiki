@@ -16,6 +16,10 @@ Nine wording permutations did not yield a significant difference in the paper’
 
 Keep the prompt intervention explicit: changing a style keyword, a realism modifier, and sentence structure are different interventions. Record generation settings so their effects are not confused with wording effects. This is an experimental-design implication drawn from the paper.
 
+## Explainable context-sensitive editing
+
+[[RePrompt]] uses a LightGBM proxy, SHAP, and partial dependence plots to derive readable edits for emotional situation texts. It modifies word counts and adjective concreteness and appends an emotion label. Unlike aesthetic keyword-set search, it targets [[Prompt alignment]] along emotion and context dimensions. See [[Explainable prompt editing]].
+
 ## Related pages
 
 - [[Style modifiers]]

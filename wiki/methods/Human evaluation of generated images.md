@@ -29,6 +29,12 @@ The authors use chi-square, Fisher’s exact, Mann–Whitney, Kruskal–Wallis, 
 
 The following are proposed extensions, not a reproduced protocol from the source: collect separate ratings for subject alignment, style fidelity, and visual quality; randomize presentation; document annotator backgrounds and agreement; and analyze repeated generations without treating every rating as independent by default. Evaluate diversity separately if it is a thesis outcome.
 
+## Alignment ratings and rankings in RePrompt
+
+[[RePrompt]] collects 0–100 IEA/ITA ratings and four-condition rankings from 197 screened workers over 146 image groups. Its rating results favor RePrompt especially for negative emotions, whereas rankings show no significant condition differences. Aggregate-judge correlations are .394 for IEA and .380 for ITA.
+
+IEA is rated before ITA; the two ratings correlate at .764, and later ITA responses are faster. The authors flag possible task-order effects and treat the disagreement between human and CLIP-based ITA as unresolved. For a new study, counterbalancing measurement order would help separate constructs. See [[CLIP-based alignment evaluation]] and [[Emotional expression in generated images]].
+
 ## Related pages
 
 - [[Style modifiers]]

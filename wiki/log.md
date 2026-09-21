@@ -16,3 +16,11 @@
 - Updated [[Prompt engineering]], [[Style modifiers]], [[Random seeds and generation variability]], [[Human evaluation of generated images]], and [[Design Guidelines for Prompt Engineering Text-to-Image Generative Models]] with related evidence and links.
 - Updated [[wiki/index|the index]]. Distinguished relative aesthetic ranks from alignment/diversity, validation selection from final testing, and predictive keyword importance from causal effects. Recorded search-reporting and annotation limitations.
 - Source files in `raw/` were left unchanged. External code/data links are attributed to the paper and were not independently inspected.
+
+## 2026-09-21 — Ingest Wang, Shen, and Lim (2023)
+
+- Resolved the extensionless source reference to [[raw/papers/wang2023reprompt.pdf]] and created [[RePrompt]] with the required paper sections, study designs, rubric, results, and limitations.
+- Created [[Prompt alignment]], [[Emotional expression in generated images]], [[CLIP-based alignment evaluation]], and [[Explainable prompt editing]] after inspecting existing pages.
+- Updated [[Prompt engineering]], [[Prompt modifiers]], [[Human evaluation of generated images]], and both previously ingested paper pages with relevant cross-links.
+- Updated [[wiki/index|the index]]. Preserved the mixed ITA findings, null ranking results, small overall rating effects, emotion-dependent CLIP validity, and apparent Table 2 verb-rule typo.
+- Left all files in `raw/` unchanged.

@@ -6,6 +6,8 @@
 
 - [[Best Prompts for Text-to-Image Models and How to Find Them]] — Pavlichenko and Ustalov (2023): crowd-guided genetic search for Stable Diffusion keyword sets, evaluated by aesthetic preference.
 
+- [[RePrompt]] — Wang, Shen, and Lim (2023): explainable prompt editing for emotion expression, with computational and human alignment evaluation.
+
 ## Concepts
 
 - [[Prompt engineering]]
@@ -17,6 +19,9 @@
 - [[Prompt modifiers]]
 - [[Aesthetic quality]]
 
+- [[Prompt alignment]]
+- [[Emotional expression in generated images]]
+
 ## Methods and evaluation
 
 - [[Human evaluation of generated images]]
@@ -24,6 +29,9 @@
 
 - [[Pairwise aesthetic preference ranking]]
 - [[Genetic optimization of prompt keywords]]
+
+- [[CLIP-based alignment evaluation]]
+- [[Explainable prompt editing]]
 
 ## Maintenance
 

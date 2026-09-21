@@ -12,6 +12,10 @@ This is evidence about combinations under Stable Diffusion v1.4, not a causal ra
 
 Separate the core description from modifier interventions. Retain a no-modifier baseline, evaluate combinations as well as controlled ablations, and document ordering and model settings. These are design implications rather than additional experiments reported by the paper.
 
+## Emotion-oriented additions and deletions
+
+[[RePrompt]] combines adding concrete, context-related adjectives and an emotion label with removing excess nouns and verbs. Its baseline of merely appending the label helps distinguish the full procedure from one simple addition. The combined experiment does not isolate every edit’s causal effect, and improved emotion alignment does not settle original-context preservation. See [[Explainable prompt editing]] and [[Prompt alignment]].
+
 ## Related pages
 
 - [[Prompt engineering]]

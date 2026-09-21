@@ -92,6 +92,10 @@ This is an early empirical basis for [[Prompt engineering]] and [[Style modifier
 
 [[Best Prompts for Text-to-Image Models and How to Find Them]] cites this paper and searches modifier combinations in Stable Diffusion v1.4 with human aesthetic preferences and a genetic algorithm. It extends the keyword-selection question to another model and evaluation task; it does not replicate the VQGAN+CLIP wording or style-fidelity experiments.
 
+## Related evidence on emotional descriptions
+
+[[RePrompt]] cites this study and uses a VQGAN-CLIP setup with the same image size and iteration limit to derive editing rules for natural emotional descriptions, then evaluates with DALL·E 2. It adds evidence about word counts, adjective concreteness, and emotion alignment; its task differs from the short subject/style permutations studied here.
+
 ## Related pages
 
 - [[Prompt engineering]]

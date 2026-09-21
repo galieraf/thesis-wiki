@@ -95,6 +95,10 @@ It extends [[Design Guidelines for Prompt Engineering Text-to-Image Generative M
 
 **Thesis implications (proposed extensions):** evaluate aesthetics, prompt alignment, and diversity separately; reserve a final test split after selecting modifiers; compare across recorded seeds and multiple subject categories; and use controlled ablations to estimate individual modifier effects. A transferable suffix can be a baseline, but subject-dependent performance should also be investigated.
 
+## Comparison with RePrompt
+
+[[RePrompt]] provides another automatic prompt-editing approach: explain a proxy model to derive contextual rules rather than search keyword subsets using crowd aesthetic preference. Its separate emotion/context outcomes make it useful for comparing optimization objectives, but the papers do not perform a head-to-head comparison.
+
 ## Related pages
 
 - [[Prompt engineering]]
