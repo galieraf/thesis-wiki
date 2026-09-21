@@ -1,3 +1,5 @@
 raw/
 .obsidian
-
+.copilot/
+.agents/
+copilot/
