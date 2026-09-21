@@ -94,3 +94,5 @@ When asked to lint the wiki:
 - find papers without source attribution
 - find missing entries in index.md
 - find concepts mentioned repeatedly but lacking their own page
+
+@AGENTS.md
