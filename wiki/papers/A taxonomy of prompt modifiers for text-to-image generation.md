@@ -85,6 +85,10 @@ The taxonomy supplies a grounded vocabulary for organizing [[Prompt modifiers]] 
 
 **Proposed thesis use:** code candidate modifiers by intended function, allow overlapping labels, separate image inputs from textual interventions, and test each category across subjects and seeds. Treat claimed quality improvement and variation as hypotheses requiring separate measures. In particular, “magic terms” motivate a diversity experiment but do not themselves establish a diversity metric or improvement.
 
+## Related empirical study of modifier knowledge
+
+[[Prompting AI Art]] examines whether crowd participants recognize, write, and revise prompts, finding sparse spontaneous use of specialist modifiers. The attached version is the 2025 journal article (online 2024), whereas this taxonomy’s bibliography cites its earlier 2023 preprint. The studies provide complementary evidence about practice and skill, not a direct test of all six categories.
+
 ## Related pages
 
 - [[Prompt modifiers]]

@@ -10,6 +10,8 @@
 
 - [[A taxonomy of prompt modifiers for text-to-image generation]] — Oppenlaender (2024; online 2023): ethnographic six-category taxonomy and iterative prompt-writing practice.
 
+- [[Prompting AI Art]] — Oppenlaender, Linder, and Silvennoinen (2025; online 2024): three 2022 studies of prompt appraisal, authorship, and revision.
+
 ## Concepts
 
 - [[Prompt engineering]]
@@ -28,6 +30,9 @@
 - [[Repeating and magic terms]]
 - [[Image prompts and initial images]]
 
+- [[Prompt engineering skill]]
+- [[Negative prompt terms]]
+
 ## Methods and evaluation
 
 - [[Human evaluation of generated images]]
@@ -40,6 +45,8 @@
 - [[Explainable prompt editing]]
 
 - [[Ethnographic analysis of prompt modifiers]]
+
+- [[Evaluation of prompt revision]]
 
 ## Maintenance
 

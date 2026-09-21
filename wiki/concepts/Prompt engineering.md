@@ -20,6 +20,10 @@ Keep the prompt intervention explicit: changing a style keyword, a realism modif
 
 [[RePrompt]] uses a LightGBM proxy, SHAP, and partial dependence plots to derive readable edits for emotional situation texts. It modifies word counts and adjective concreteness and appends an emotion label. Unlike aesthetic keyword-set search, it targets [[Prompt alignment]] along emotion and context dimensions. See [[Explainable prompt editing]].
 
+## Skill and learning
+
+[[Prompting AI Art]] distinguishes judging prompts, writing them, and revising them. Its 2022 participants rarely apply specialist modifiers, and most paired image sets do not improve after one revision. This supports studying [[Prompt engineering skill]] but does not establish a learning curve or make specialist keywords universally necessary.
+
 ## Related pages
 
 - [[Style modifiers]]

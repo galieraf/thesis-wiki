@@ -35,6 +35,10 @@ The following are proposed extensions, not a reproduced protocol from the source
 
 IEA is rated before ITA; the two ratings correlate at .764, and later ITA responses are faster. The authors flag possible task-order effects and treat the disagreement between human and CLIP-based ITA as unresolved. For a new study, counterbalancing measurement order would help separate constructs. See [[CLIP-based alignment evaluation]] and [[Emotional expression in generated images]].
 
+## Appraisal and revision in Prompting AI Art
+
+[[Prompting AI Art]] counterbalances separate five-point ratings of prompts and image stimuli, finding a weak correlation ($r=.29$). Its follow-up uses author-consensus judgments of paired five-image sets across seven quality dimensions. These are different protocols: participant aesthetic appraisal versus researcher evaluation of revision. See [[Evaluation of prompt revision]] for the unit of analysis and limitations.
+
 ## Related pages
 
 - [[Style modifiers]]

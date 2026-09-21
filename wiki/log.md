@@ -32,3 +32,11 @@
 - Added [[Quality boosters]], [[Repeating and magic terms]], [[Image prompts and initial images]], and [[Ethnographic analysis of prompt modifiers]] after inspecting existing notes.
 - Updated [[wiki/index|the index]], separated intended effects from measured outcomes, and distinguished the published six-category version from the earlier description cited in [[RePrompt]].
 - Left `raw/` unchanged.
+
+## 2026-09-21 — Ingest Prompting AI Art
+
+- Resolved the requested title to [[raw/papers/Prompting AI Art  An Investigation into the Creative Skill of Prompt Engineering.pdf]] and created [[Prompting AI Art]], recording the 2025 journal year, November 2024 online publication, and 2022 study dates separately.
+- Added [[Prompt engineering skill]], [[Negative prompt terms]], and [[Evaluation of prompt revision]] after reviewing existing pages.
+- Updated [[Prompt engineering]], [[Human evaluation of generated images]], and [[A taxonomy of prompt modifiers for text-to-image generation]] with reciprocal connections; updated [[wiki/index|the index]].
+- Flagged overlapping participant counts, inconsistent revised-image totals, weak appraisal correlation, and limits of single-revision evidence. Kept lexical diversity distinct from image diversity.
+- Left all source files in `raw/` unchanged.
