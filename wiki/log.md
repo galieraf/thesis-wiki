@@ -40,3 +40,12 @@
 - Updated [[Prompt engineering]], [[Human evaluation of generated images]], and [[A taxonomy of prompt modifiers for text-to-image generation]] with reciprocal connections; updated [[wiki/index|the index]].
 - Flagged overlapping participant counts, inconsistent revised-image totals, weak appraisal correlation, and limits of single-revision evidence. Kept lexical diversity distinct from image diversity.
 - Left all source files in `raw/` unchanged.
+
+## 2026-09-22 — Ingest Chen et al. (2024)
+
+- Resolved the extensionless reference to [[raw/papers/chen2024human.pdf]] and read the supplied arXiv v2 paper and appendix; created [[Evaluating Text-to-Image Generative Models - An Empirical Study on Human Image Synthesis]] with all required paper sections.
+- Inspected existing notes before adding [[Anatomical realism]], [[Demographic diversity and bias]], [[CAN aesthetic assessment]], [[Anatomical defect evaluation]], and [[VQA-based concept coverage]].
+- Updated [[Aesthetic quality]], [[Prompt alignment]], [[Prompt modifiers]], [[Human evaluation of generated images]], and [[CLIP-based alignment evaluation]]; added all new pages to [[wiki/index|the index]].
+- Distinguished automated estimates from human judgments, single-concept alignment from compositional alignment, and demographic entropy from general image diversity. Flagged strict-coverage construct mixing and the appendix’s evaluator group-accuracy gap.
+- Recomputed the 30-row coverage means in Tables 12–14: closed means reproduce Table 5, but open means do not. Preserved both reported and recomputed values with the discrepancy unresolved.
+- Left all files in `raw/` unchanged. The source-linked external code/data repository was not independently inspected.

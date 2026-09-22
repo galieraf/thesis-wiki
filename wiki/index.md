@@ -12,6 +12,8 @@
 
 - [[Prompting AI Art]] — Oppenlaender, Linder, and Silvennoinen (2025; online 2024): three 2022 studies of prompt appraisal, authorship, and revision.
 
+- [[Evaluating Text-to-Image Generative Models - An Empirical Study on Human Image Synthesis]] — Chen et al. (2024): separates aesthetics, anatomical defects, VQA concept coverage, and demographic bias; records evaluator and reporting limitations.
+
 ## Concepts
 
 - [[Prompt engineering]]
@@ -33,6 +35,9 @@
 - [[Prompt engineering skill]]
 - [[Negative prompt terms]]
 
+- [[Anatomical realism]]
+- [[Demographic diversity and bias]]
+
 ## Methods and evaluation
 
 - [[Human evaluation of generated images]]
@@ -47,6 +52,10 @@
 - [[Ethnographic analysis of prompt modifiers]]
 
 - [[Evaluation of prompt revision]]
+
+- [[CAN aesthetic assessment]]
+- [[Anatomical defect evaluation]]
+- [[VQA-based concept coverage]]
 
 ## Maintenance
 

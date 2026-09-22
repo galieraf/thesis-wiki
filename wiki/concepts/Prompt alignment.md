@@ -12,6 +12,10 @@ Prompt alignment concerns whether a generated image expresses the requested cont
 
 Specify which reference is being used: the original user request, the edited prompt, an emotion label, or a style. Scoring against an edited prompt alone can miss loss of original intent. Evaluate distinct dimensions separately and check automated judgments against human perception.
 
+## Single-concept coverage in Chen et al. (2024)
+
+[[Evaluating Text-to-Image Generative Models - An Empirical Study on Human Image Synthesis]] estimates concept success across 500 generations per concept using [[VQA-based concept coverage]]. Closed questions correspond more closely to loose human concept judgments than the tested thresholded CLIP baseline. Open questions add answer-consistency filtering and correlate with strict human judgments, but those judgments also require defect-free humans. Thus strict coverage mixes alignment with [[Anatomical realism]] and does not establish full compositional prompt fulfillment.
+
 ## Related pages
 
 - [[Emotional expression in generated images]]

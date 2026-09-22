@@ -12,6 +12,10 @@ Aesthetic quality concerns how visually appealing an image is to an evaluator. I
 
 An attractive result may omit content, and a faithful result may not be preferred aesthetically. A thesis evaluation should therefore name and measure its outcomes separately. Set-level aesthetic choices alone do not establish whether an output collection is diverse or whether one unusually good image dominates the judgment.
 
+## Disentangled aesthetic assessment in Chen et al. (2024)
+
+[[Evaluating Text-to-Image Generative Models - An Empirical Study on Human Image Synthesis]] evaluates aesthetics with [[CAN aesthetic assessment]] and measures [[Anatomical realism]] separately. CAN approximately matches TANet on AVA and improves cross-dataset agreement most clearly on PARA. The model-comparison scores favor Midjourney and SDXL under the tested prompts, but they are automatic predictions, not universal human preference rankings. Aesthetic-score standard deviation measures score stability, not image diversity.
+
 ## Related pages
 
 - [[Human evaluation of generated images]]

@@ -39,6 +39,12 @@ IEA is rated before ITA; the two ratings correlate at .764, and later ITA respon
 
 [[Prompting AI Art]] counterbalances separate five-point ratings of prompts and image stimuli, finding a weak correlation ($r=.29$). Its follow-up uses author-consensus judgments of paired five-image sets across seven quality dimensions. These are different protocols: participant aesthetic appraisal versus researcher evaluation of revision. See [[Evaluation of prompt revision]] for the unit of analysis and limitations.
 
+## Loose and strict concept judgments in Chen et al. (2024)
+
+[[Evaluating Text-to-Image Generative Models - An Empirical Study on Human Image Synthesis]] uses volunteers to label concept presence (loose) and concept presence plus defect-free human depiction (strict). These outcomes should be kept distinct: strict judgments combine alignment and realism. The paper reports concept-level correlations with VQA metrics, not interchangeable per-image agreement. Recruitment, validation sample sizes, and inter-rater agreement are insufficiently specified for a full reliability assessment.
+
+Professional annotators also label body parts good, bad, or invisible for [[Anatomical defect evaluation]]. Borderline defects remain subjective. For the thesis, collect separate concept and defect labels before deriving any joint success score; see [[VQA-based concept coverage]].
+
 ## Related pages
 
 - [[Style modifiers]]

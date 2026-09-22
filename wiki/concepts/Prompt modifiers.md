@@ -31,6 +31,10 @@ Separate the core description from modifier interventions. Retain a no-modifier 
 
 [[RePrompt]] combines adding concrete, context-related adjectives and an emotion label with removing excess nouns and verbs. Its baseline of merely appending the label helps distinguish the full procedure from one simple addition. The combined experiment does not isolate every edit’s causal effect, and improved emotion alignment does not settle original-context preservation. See [[Explainable prompt editing]] and [[Prompt alignment]].
 
+## Evaluation implications from human image synthesis
+
+[[Evaluating Text-to-Image Generative Models - An Empirical Study on Human Image Synthesis]] constructs prompts with optional lighting, camera, style, and HDR/UHD terms but does not isolate their causal effects. Its contribution to modifier research is a framework for reporting [[CAN aesthetic assessment|aesthetics]], [[Anatomical defect evaluation|defects]], [[VQA-based concept coverage|concept success]], and [[Demographic diversity and bias|demographic distributions]] separately.
+
 ## Related pages
 
 - [[Prompt engineering]]

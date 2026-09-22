@@ -31,6 +31,10 @@ The appendix also demonstrates that meaningless text can produce misleading simi
 
 Record the model backbone, preprocessing, score formula, and reference text. Check human correspondence by prompt category, and consider shared representation bias if CLIP also guides generation or optimization. RePrompt uses ViT-B/16 for VQGAN-CLIP guidance and ViT-B/32 for scoring, but both remain CLIP-based.
 
+## Thresholded CLIP versus concept coverage
+
+[[Evaluating Text-to-Image Generative Models - An Empirical Study on Human Image Synthesis]] uses CLIPScore threshold 0.2 to estimate concept coverage. Across 30 concepts, its correlation with loose human coverage is 0.12–0.19, compared with 0.48–0.71 for closed VQA coverage. This supports checking concept-level validity and calibration; it does not establish that all CLIP-based methods fail. See [[VQA-based concept coverage]] for the exact comparison and the distinction between loose and strict human judgments.
+
 ## Related pages
 
 - [[Prompt alignment]]
