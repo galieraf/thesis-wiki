@@ -43,6 +43,10 @@ Record the model backbone, preprocessing, score formula, and reference text. Che
 
 [[Holistic Evaluation of Text-to-Image Models]] reports a 0.42 correlation between CLIPScore and human alignment in its benchmark. The supplied text does not fully specify correlation type or aggregation unit; do not present this as a per-image calibration coefficient. HEIM combines CLIP with human questions and object/count/relation diagnostics, and examines alignment changes under [[Prompt perturbation evaluation|input perturbations]].
 
+## Realism-specific comparison in REAL
+
+[[REAL - Realism Evaluation of Text-to-Image Generation Models for Effective Data Augmentation]] reports CLIP baseline Spearman correlations of 0.2176/0.1698/0.1670 against human realism questions on iNaturalist/Birds/UnRel, versus REAL’s 0.5223/0.6162/0.5672. This compares alignment scoring with a different target construct; it does not establish universal superiority for prompt-alignment tasks. REAL separately fine-tunes CLIP for photo-versus-illustration classification, a different use of the architecture. See [[Schema-based realism evaluation]].
+
 ## Related pages
 
 - [[Prompt alignment]]

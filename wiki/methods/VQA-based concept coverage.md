@@ -37,6 +37,10 @@ The approach offers an interpretable complement to [[CLIP-based alignment evalua
 
 For modifier experiments, fix the original target concept across conditions and report concept presence and defect freedom separately. Human calibration and sensitivity to question wording remain necessary.
 
+## Structured component checks in REAL
+
+[[REAL - Realism Evaluation of Text-to-Image Generation Models for Effective Data Augmentation]] uses [[Schema-based realism evaluation]] to check visibility, detailed class traits, entity realism, and relations. This differs from the single-concept frequency approach above. REAL normalizes attribute matches by visible parts, introducing coverage sensitivity, and reports strong dependence on which VQA evaluator is used.
+
 ## Related pages
 
 - [[Human evaluation of generated images]]

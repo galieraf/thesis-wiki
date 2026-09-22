@@ -24,6 +24,14 @@ Specify which reference is being used: the original user request, the edited pro
 
 [[Holistic Evaluation of Text-to-Image Models]] uses five-point human alignment judgments across general, knowledge, and reasoning scenarios, alongside CLIPScore and diagnostic object detection. The best PaintSkills detection result is 47.2%, illustrating why strong general alignment does not guarantee correct counts or relations. [[Prompt perturbation evaluation]] separately checks changes across wording, demographic terms, and translations.
 
+## Implicit class knowledge and realism in REAL
+
+[[REAL - Realism Evaluation of Text-to-Image Generation Models for Effective Data Augmentation]] evaluates visible species traits derived from knowledge sources and checks entities and relations separately from photographic appearance. Its realism construct overlaps with factual correctness implied by a class name, even if every trait is absent from the prompt text. See [[Fine-grained visual correctness]] and [[Schema-based realism evaluation]]; do not interpret realism and alignment as wholly independent here.
+
+## Task recognition versus execution
+
+[[Prompt Programming for Large Language Models - Beyond the Few-Shot Paradigm]] observes translation outputs that do not attempt translation at all, and proposes separating these from poor attempts. [[Task-attempt failure analysis]] adapts that distinction cautiously to missing-subject versus detail/relation errors in images, while retaining unconditional scores. The image-domain adaptation is a thesis proposal, not evidence from its GPT-3 study.
+
 ## Related pages
 
 - [[Emotional expression in generated images]]

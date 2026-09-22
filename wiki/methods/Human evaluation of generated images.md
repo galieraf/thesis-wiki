@@ -57,6 +57,12 @@ Repeated app interactions retain a winning image and replace its competitor, so 
 
 The paper reports $0.02 per question, an intended $16/hour, and $13,433.55 total cost. It notes higher variability in aesthetics/originality but supplies no numerical inter-rater reliability in the text. Its metric-based model win rates should not be mistaken for direct human pairwise votes. See [[Photorealism]], [[Perceived originality in generated images]], and [[Holistic text-to-image evaluation]].
 
+## Binary realism questions in REAL
+
+[[REAL - Realism Evaluation of Text-to-Image Generation Models for Effective Data Augmentation]] samples 100 images each from iNaturalist, Birds, and UnRel. Three workers answer each manually constructed attribute/relation question; majority votes become binary labels, and positive-label proportions form image scores. Appendix A.2 describes English-speaking MTurk Masters paid $0.05 per example with an estimated $9 hourly rate. No inter-rater agreement coefficient is supplied.
+
+This validates correspondence to the source’s structured rubric, rather than an unrestricted holistic realism judgment. See [[Schema-based realism evaluation]] for correlations and evaluator dependence.
+
 ## Related pages
 
 - [[Style modifiers]]

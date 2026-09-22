@@ -39,6 +39,14 @@ Separate the core description from modifier interventions. Retain a no-modifier 
 
 [[Pick-a-Pic - An Open Dataset of User Preferences for Text-to-Image Generation]] (§6) generates 100 candidates per prompt using five noises and twenty templates, including an unchanged prompt and quality/style additions. [[Best-of-N image selection]] with PickScore improves human preference over the tested controls. Because this combines template choice, seed choice, and scoring, the result does not identify causal benefits of individual modifiers or of templates alone.
 
+## Realism-oriented evaluation from REAL
+
+[[REAL - Realism Evaluation of Text-to-Image Generation Models for Effective Data Augmentation]] provides measures of fine-grained traits, relations, and photographic style, but does not test modifier interventions. A proposed application is to check whether realism or framing modifiers improve [[Photorealism]] while preserving [[Fine-grained visual correctness]] and visible-part coverage. Downstream augmentation gains in the paper should not be attributed to modifiers.
+
+## Conceptual connection to contextual cues
+
+[[Prompt Programming for Large Language Models - Beyond the Few-Shot Paradigm]] proposes that cultural and narrative cues can compactly communicate intended behavior to a language model. This offers an analogy for modifier associations, but its evidence is GPT-3 translation and illustrative text generation, not causal tests of image modifiers. See [[Task location in prompting]].
+
 ## Related pages
 
 - [[Prompt engineering]]

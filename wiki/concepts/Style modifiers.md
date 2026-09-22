@@ -26,6 +26,10 @@ A useful thesis question is whether modifiers improve style representation while
 
 [[Holistic Evaluation of Text-to-Image Models]] appends oil painting, watercolor, pencil sketch, animation, vector graphics, or pixel art to MS-COCO captions. Its narrative identifies Openjourney as strongest for human aesthetic appeal, DALL-E 2 for alignment, and Dreamlike Photoreal for subject clarity. These separate outcomes do not constitute a dedicated style-fidelity judgment. Lower [[Photorealism]] is not necessarily failure when the requested style is non-photographic.
 
+## Cultural cues as a language-model analogy
+
+[[Prompt Programming for Large Language Models - Beyond the Few-Shot Paradigm]] discusses specifying behavior through culturally familiar roles and situations. This is a conceptual parallel to style names conveying bundles of visual associations, not empirical evidence that the mechanisms or effects transfer to image generation. See [[Task location in prompting]].
+
 ## Related pages
 
 - [[Prompt engineering]]

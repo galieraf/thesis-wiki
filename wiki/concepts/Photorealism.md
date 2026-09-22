@@ -14,6 +14,10 @@ The source also computes FID with 30,000 MS-COCO prompt–image pairs resized to
 
 Use photorealism when realism is intended. For artistic modifier conditions, report it separately rather than treating a reduction as universal quality loss. HEIM’s Promptist comparison illustrates the distinction: aesthetic win rate improves while the table’s quality/photorealism win rate is much lower than unmodified SD1.4.
 
+## Photographic style in REAL
+
+[[REAL - Realism Evaluation of Text-to-Image Generation Models for Effective Data Augmentation]] fine-tunes CLIP to classify photo versus illustration and combines this style score with attribute correctness for augmentation filtering. Photographic appearance is only one component: [[Fine-grained visual correctness]] and realistic relations can fail even when an image looks photographic. The real-photo/generated-illustration training setup may confound image origin with style; generalization requires validation. See [[Schema-based realism evaluation]].
+
 ## Related pages
 
 - [[Human evaluation of generated images]]

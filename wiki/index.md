@@ -18,6 +18,10 @@
 
 - [[Holistic Evaluation of Text-to-Image Models]] — Lee et al. (2023): HEIM compares 26 systems across twelve aspects and 62 scenarios with human and automated metrics.
 
+- [[REAL - Realism Evaluation of Text-to-Image Generation Models for Effective Data Augmentation]] — Li et al. (2025): structured attribute/relation realism, photographic-style scoring, and downstream augmentation filtering.
+
+- [[Prompt Programming for Large Language Models - Beyond the Few-Shot Paradigm]] — Reynolds and McDonell (2021): GPT-3 translation prompt comparisons, task-location hypothesis, and exploratory metaprompting; conceptual background rather than text-to-image evidence.
+
 ## Concepts
 
 - [[Prompt engineering]]
@@ -47,6 +51,10 @@
 - [[Photorealism]]
 - [[Perceived originality in generated images]]
 
+- [[Fine-grained visual correctness]]
+
+- [[Task location in prompting]]
+
 ## Methods and evaluation
 
 - [[Human evaluation of generated images]]
@@ -71,6 +79,12 @@
 
 - [[Holistic text-to-image evaluation]]
 - [[Prompt perturbation evaluation]]
+
+- [[Schema-based realism evaluation]]
+- [[Realism-based data augmentation filtering]]
+
+- [[Metaprompt programming]]
+- [[Task-attempt failure analysis]]
 
 ## Maintenance
 

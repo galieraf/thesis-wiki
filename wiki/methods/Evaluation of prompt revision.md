@@ -20,6 +20,10 @@ The paper’s Study 3 table provides descriptive outcomes; it does not state an 
 
 A proposed extension is to use repeated seeds, blinded/counterbalanced image comparisons, independent raters, uncertainty estimates accounting for repeated participants/prompts, and separate alignment, aesthetics, and diversity outcomes. Multiple rounds and a training control are needed to study learning, while component ablations can separate negative terms from positive-prompt edits.
 
+## Diagnosing failures beyond an average score
+
+[[Prompt Programming for Large Language Models - Beyond the Few-Shot Paradigm]] recommends distinguishing task non-attempts from unsuccessful task execution. For image prompt revision, a proposed extension is to report missing required content separately from fine-detail errors while retaining the overall outcome and excluded fraction. See [[Task-attempt failure analysis]]. The source itself studies language-model translation, not image revision.
+
 ## Related pages
 
 - [[Prompt engineering skill]]

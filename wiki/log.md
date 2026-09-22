@@ -66,3 +66,21 @@
 - Preserved the 2023 model/version scope and distinguished metric win rates, human ratings, photorealism, aesthetics, representation bias, and performance fairness. Recorded the Promptist outcome trade-off and the lack of a dedicated visual-diversity measure.
 - Flagged incomplete correlation reporting, the headline metric-count/Table 3 discrepancy, and editorial artifacts in Appendix B.2. Kept perceived originality separate from proven novelty or legal conclusions.
 - Left all files in `raw/` unchanged. External source-linked benchmark/code resources were not independently inspected.
+
+## 2026-09-22 — Ingest Li et al. (2025), REAL
+
+- Resolved the extensionless reference to [[raw/papers/li2025real.pdf]], read the paper and appendix, and created [[REAL - Realism Evaluation of Text-to-Image Generation Models for Effective Data Augmentation]] with all required sections.
+- Inspected existing pages before adding [[Fine-grained visual correctness]], [[Schema-based realism evaluation]], and [[Realism-based data augmentation filtering]].
+- Updated [[Photorealism]], [[Prompt alignment]], [[VQA-based concept coverage]], [[Anatomical defect evaluation]], [[Human evaluation of generated images]], [[CLIP-based alignment evaluation]], and [[Prompt modifiers]]; updated [[wiki/index|the index]].
+- Distinguished photo appearance, attribute correctness, visibility, relation scoring, and downstream utility. Recorded mixed real/synthetic candidate pools, limited split details, and evaluator dependence.
+- Reported absolute F1 differences accurately; flagged the relationship-score normalization omission and Table 4/prose gain discrepancy. Did not propagate the source’s incorrect statement that IS requires ground-truth images.
+- Left all files in `raw/` unchanged; no external implementation or dataset was inspected.
+
+## 2026-09-22 — Ingest Reynolds and McDonell (2021)
+
+- Read [[raw/papers/reynold2021prompt.pdf]] and created [[Prompt Programming for Large Language Models - Beyond the Few-Shot Paradigm]] with all required sections, correcting the author spelling implied by the filename.
+- Inspected existing pages before adding [[Task location in prompting]], [[Metaprompt programming]], and [[Task-attempt failure analysis]].
+- Updated [[Prompt engineering]], [[Prompt modifiers]], [[Style modifiers]], [[Prompt alignment]], and [[Evaluation of prompt revision]]; updated [[wiki/index|the index]].
+- Distinguished original GPT-3 scores from API reproductions, task-location interpretation from mechanistic proof, and translation evidence from image-domain hypotheses.
+- Preserved cases where zero-shot does not beat few-shot, flagged the incorrect arithmetic output in Figure 3, and separated exploratory reasoning proposals from measured accuracy gains.
+- Left all files in `raw/` unchanged. External linked material was not independently inspected.

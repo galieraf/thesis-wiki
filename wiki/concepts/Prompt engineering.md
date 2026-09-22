@@ -28,6 +28,10 @@ Keep the prompt intervention explicit: changing a style keyword, a realism modif
 
 [[Holistic Evaluation of Text-to-Image Models]] compares Promptist + SD1.4 with the base generator and reports better human-rated aesthetics with comparable alignment. Its summary table also shows much lower photorealism/quality win rate for Promptist, illustrating why “better” must name an outcome. This evaluates a full learned rewriting system, not isolated modifier effects. See [[Holistic text-to-image evaluation]].
 
+## Early language-model perspective
+
+[[Prompt Programming for Large Language Models - Beyond the Few-Shot Paradigm]] (2021) frames natural-language prompting as task specification through direct instructions, demonstrations, and contextual cues. Its GPT-3 translation experiment supports testing prompt format rather than assuming more examples always help. [[Task location in prompting]] is its proposed explanation; [[Metaprompt programming]] is an exploratory method for generating task-specific scaffolding. This is language-model background, not direct evidence about text-to-image modifiers.
+
 ## Related pages
 
 - [[Style modifiers]]

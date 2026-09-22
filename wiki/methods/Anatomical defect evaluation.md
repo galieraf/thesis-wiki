@@ -18,6 +18,10 @@ Predicted face defect rates are 86%/79%/61%/29% in that same model order. They a
 
 Borderline defects have subjective labels; dramatic expressions, extreme lighting, and subtle eye details produce errors. The paper does not fully specify the visible-component denominator for every reported rate. For thesis use, define denominators, document visibility, validate precision/recall by component and condition, and check transfer beyond SDXL-generated training data. Report [[Anatomical realism]] separately from concept presence; the source’s strict human coverage combines them.
 
+## Related schema-based realism checks
+
+[[REAL - Realism Evaluation of Text-to-Image Generation Models for Effective Data Augmentation]] evaluates fine-grained class traits and entity/relation realism using VQA, rather than dedicated human-component classifiers. Both approaches distinguish visibility from correctness, but REAL’s attribute ratio excludes invisible parts from the denominator. See [[Schema-based realism evaluation]] and [[Fine-grained visual correctness]] for that coverage limitation.
+
 ## Related pages
 
 - [[VQA-based concept coverage]]
