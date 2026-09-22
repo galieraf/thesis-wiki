@@ -22,6 +22,18 @@ to grow. It became difficult to remember:
 This project turns those papers into a persistent knowledge base that can be
 queried and updated over time.
 
+## Knowledge graph
+
+The wiki is browsable as an Obsidian knowledge graph. Papers, concepts and
+evaluation methods are connected through `[[wikilinks]]`, allowing the structure
+of the research literature to emerge over time.
+
+![Thesis wiki graph](/images/wiki-graph.png)
+
+Example of a concept node and its local neighborhood:
+
+![Prompt alignment graph](/images/prompt-alignment-graph.png)
+
 ## How it works
 
 The repository has three main parts:
