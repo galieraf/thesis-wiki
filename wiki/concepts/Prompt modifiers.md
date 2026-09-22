@@ -35,6 +35,10 @@ Separate the core description from modifier interventions. Retain a no-modifier 
 
 [[Evaluating Text-to-Image Generative Models - An Empirical Study on Human Image Synthesis]] constructs prompts with optional lighting, camera, style, and HDR/UHD terms but does not isolate their causal effects. Its contribution to modifier research is a framework for reporting [[CAN aesthetic assessment|aesthetics]], [[Anatomical defect evaluation|defects]], [[VQA-based concept coverage|concept success]], and [[Demographic diversity and bias|demographic distributions]] separately.
 
+## Templates combined with seed search in Pick-a-Pic
+
+[[Pick-a-Pic - An Open Dataset of User Preferences for Text-to-Image Generation]] (§6) generates 100 candidates per prompt using five noises and twenty templates, including an unchanged prompt and quality/style additions. [[Best-of-N image selection]] with PickScore improves human preference over the tested controls. Because this combines template choice, seed choice, and scoring, the result does not identify causal benefits of individual modifiers or of templates alone.
+
 ## Related pages
 
 - [[Prompt engineering]]

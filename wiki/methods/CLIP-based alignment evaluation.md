@@ -35,6 +35,10 @@ Record the model backbone, preprocessing, score formula, and reference text. Che
 
 [[Evaluating Text-to-Image Generative Models - An Empirical Study on Human Image Synthesis]] uses CLIPScore threshold 0.2 to estimate concept coverage. Across 30 concepts, its correlation with loose human coverage is 0.12–0.19, compared with 0.48–0.71 for closed VQA coverage. This supports checking concept-level validity and calibration; it does not establish that all CLIP-based methods fail. See [[VQA-based concept coverage]] for the exact comparison and the distinction between loose and strict human judgments.
 
+## Preference fine-tuning changes the construct
+
+[[Pick-a-Pic - An Open Dataset of User Preferences for Text-to-Image Generation]] fine-tunes CLIP-H into [[PickScore preference prediction]]. Test preference accuracy rises from zero-shot CLIP-H’s 60.8% to 70.5% under its tie-aware metric, but PickScore sometimes favors aesthetics over faithfulness. Shared architecture does not make a preference-trained score interchangeable with an alignment score.
+
 ## Related pages
 
 - [[Prompt alignment]]

@@ -49,3 +49,11 @@
 - Distinguished automated estimates from human judgments, single-concept alignment from compositional alignment, and demographic entropy from general image diversity. Flagged strict-coverage construct mixing and the appendix’s evaluator group-accuracy gap.
 - Recomputed the 30-row coverage means in Tables 12–14: closed means reproduce Table 5, but open means do not. Preserved both reported and recomputed values with the discrepancy unresolved.
 - Left all files in `raw/` unchanged. The source-linked external code/data repository was not independently inspected.
+
+## 2026-09-22 — Ingest Kirstain et al. (2023)
+
+- Read [[raw/papers/kirstain2023pickapic.pdf]], including the appendix, and created [[Pick-a-Pic - An Open Dataset of User Preferences for Text-to-Image Generation]] with the required paper sections.
+- Inspected existing concepts and methods before creating [[Human preference in image generation]], [[PickScore preference prediction]], and [[Best-of-N image selection]].
+- Updated [[Aesthetic quality]], [[Prompt alignment]], [[Prompt modifiers]], [[Random seeds and generation variability]], [[Human evaluation of generated images]], [[CLIP-based alignment evaluation]], and [[Pairwise aesthetic preference ranking]]; updated [[wiki/index|the index]].
+- Distinguished experimental dataset counts from later releases, prompt-disjoint from user-disjoint splits, tie-aware accuracy from ordinary accuracy, and aggregate ranking correlations from per-image agreement. Qualified the “superhuman” claim and the ambiguously labeled training-seed spread.
+- Kept seed/template selection gains separate from causal modifier effects and dedicated alignment/diversity outcomes. Left all files in `raw/` unchanged; external source-linked resources were not independently inspected.

@@ -20,6 +20,10 @@ A practical extension is to compare modifier conditions across repeated, recorde
 
 [[Best Prompts for Text-to-Image Models and How to Find Them]] uses four images per description–keyword-set combination and compares whole image sets. This reduces reliance on a single displayed generation, but the paper does not specify seed control or test how many samples are sufficient. Four-image aesthetic preference is not a diversity metric. See [[Pairwise aesthetic preference ranking]].
 
+## Seed and template selection in Pick-a-Pic
+
+[[Pick-a-Pic - An Open Dataset of User Preferences for Text-to-Image Generation]] combines five initial noises with twenty prompt templates and selects one of 100 images. Its preference gains concern [[Best-of-N image selection]], not average seed quality or measured visual diversity. For thesis comparisons, distinguish evaluation across repeated seeds from selecting the most favorable result and hold candidate budgets constant.
+
 ## Related pages
 
 - [[Prompt engineering]]

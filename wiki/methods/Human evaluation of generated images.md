@@ -45,6 +45,12 @@ IEA is rated before ITA; the two ratings correlate at .764, and later ITA respon
 
 Professional annotators also label body parts good, bad, or invisible for [[Anatomical defect evaluation]]. Borderline defects remain subjective. For the thesis, collect separate concept and defect labels before deriving any joint success score; see [[VQA-based concept coverage]].
 
+## Original-user preference and external experts in Pick-a-Pic
+
+[[Pick-a-Pic - An Open Dataset of User Preferences for Text-to-Image Generation]] collects general preferences between two images with a tie option. Original prompt authors supply training/test labels, whereas friends and colleagues of the authors serve as expert evaluators. Experts lack the original user’s private intent; their 68.0% agreement and PickScore’s 70.5% use a tie-aware partial-credit metric, not ordinary binary accuracy.
+
+Repeated app interactions retain a winning image and replace its competitor, so observations can share users, prompts, and images. Record these dependencies when designing uncertainty estimates. See [[Human preference in image generation]] and [[PickScore preference prediction]] for split construction and tie handling.
+
 ## Related pages
 
 - [[Style modifiers]]

@@ -14,6 +14,8 @@
 
 - [[Evaluating Text-to-Image Generative Models - An Empirical Study on Human Image Synthesis]] — Chen et al. (2024): separates aesthetics, anatomical defects, VQA concept coverage, and demographic bias; records evaluator and reporting limitations.
 
+- [[Pick-a-Pic - An Open Dataset of User Preferences for Text-to-Image Generation]] — Kirstain et al. (2023): real-user pairwise preferences, PickScore, generator rankings, and selection across seeds and prompt templates.
+
 ## Concepts
 
 - [[Prompt engineering]]
@@ -38,6 +40,8 @@
 - [[Anatomical realism]]
 - [[Demographic diversity and bias]]
 
+- [[Human preference in image generation]]
+
 ## Methods and evaluation
 
 - [[Human evaluation of generated images]]
@@ -56,6 +60,9 @@
 - [[CAN aesthetic assessment]]
 - [[Anatomical defect evaluation]]
 - [[VQA-based concept coverage]]
+
+- [[PickScore preference prediction]]
+- [[Best-of-N image selection]]
 
 ## Maintenance
 

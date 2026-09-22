@@ -16,6 +16,10 @@ Specify which reference is being used: the original user request, the edited pro
 
 [[Evaluating Text-to-Image Generative Models - An Empirical Study on Human Image Synthesis]] estimates concept success across 500 generations per concept using [[VQA-based concept coverage]]. Closed questions correspond more closely to loose human concept judgments than the tested thresholded CLIP baseline. Open questions add answer-consistency filtering and correlate with strict human judgments, but those judgments also require defect-free humans. Thus strict coverage mixes alignment with [[Anatomical realism]] and does not establish full compositional prompt fulfillment.
 
+## Preference does not guarantee faithfulness
+
+[[Pick-a-Pic - An Open Dataset of User Preferences for Text-to-Image Generation]] reports that PickScore sometimes chooses more aesthetically pleasing images at the cost of faithfulness. Its ranking experiment’s CLIP-based alignment checks remain automatic proxies. Use [[PickScore preference prediction]] as a preference outcome alongside explicit alignment measurements, rather than treating higher preference as proof of preserved intent.
+
 ## Related pages
 
 - [[Emotional expression in generated images]]

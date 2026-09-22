@@ -16,6 +16,10 @@ An attractive result may omit content, and a faithful result may not be preferre
 
 [[Evaluating Text-to-Image Generative Models - An Empirical Study on Human Image Synthesis]] evaluates aesthetics with [[CAN aesthetic assessment]] and measures [[Anatomical realism]] separately. CAN approximately matches TANet on AVA and improves cross-dataset agreement most clearly on PARA. The model-comparison scores favor Midjourney and SDXL under the tested prompts, but they are automatic predictions, not universal human preference rankings. Aesthetic-score standard deviation measures score stability, not image diversity.
 
+## Aesthetic appeal versus learned preference
+
+[[Pick-a-Pic - An Open Dataset of User Preferences for Text-to-Image Generation]] trains [[PickScore preference prediction]] on general user choices. The aesthetic-only baseline achieves 56.8% tie-aware preference accuracy versus PickScore’s 70.5%. This shows that the tested aesthetic predictor does not capture the full preference task; it does not make preference a pure aesthetic measure. PickScore can also favor appeal at the expense of prompt faithfulness. See [[Human preference in image generation]].
+
 ## Related pages
 
 - [[Human evaluation of generated images]]

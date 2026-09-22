@@ -22,6 +22,10 @@ Mean rank is conditional on the candidate pool. A rank of 38 is neither 38% pref
 
 The method collects aesthetic judgments, not separate alignment or diversity measurements. The paper argues pairwise choices avoid differences in how people use numerical scales, but does not present a controlled comparison proving superiority over rating scales. No detailed inter-rater reliability or uncertainty estimates are reported.
 
+## Contrast with individual-image general preference
+
+[[Pick-a-Pic - An Open Dataset of User Preferences for Text-to-Image Generation]] compares individual images with ties and asks for overall user preference, whereas the protocol above compares four-image sets specifically for aesthetics. Its aggregate generator evaluation uses Elo across model–guidance configurations, rather than per-description Bradley–Terry ranks. Preserve the construct, unit, and aggregation distinction; see [[Human preference in image generation]] and [[PickScore preference prediction]].
+
 ## Related pages
 
 - [[Aesthetic quality]]
