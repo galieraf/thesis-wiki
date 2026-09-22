@@ -39,6 +39,10 @@ Record the model backbone, preprocessing, score formula, and reference text. Che
 
 [[Pick-a-Pic - An Open Dataset of User Preferences for Text-to-Image Generation]] fine-tunes CLIP-H into [[PickScore preference prediction]]. Test preference accuracy rises from zero-shot CLIP-H’s 60.8% to 70.5% under its tie-aware metric, but PickScore sometimes favors aesthetics over faithfulness. Shared architecture does not make a preference-trained score interchangeable with an alignment score.
 
+## Human correspondence in HEIM
+
+[[Holistic Evaluation of Text-to-Image Models]] reports a 0.42 correlation between CLIPScore and human alignment in its benchmark. The supplied text does not fully specify correlation type or aggregation unit; do not present this as a per-image calibration coefficient. HEIM combines CLIP with human questions and object/count/relation diagnostics, and examines alignment changes under [[Prompt perturbation evaluation|input perturbations]].
+
 ## Related pages
 
 - [[Prompt alignment]]

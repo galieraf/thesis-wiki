@@ -27,3 +27,9 @@ Prompts include explicit demographic attributes, making low entropy expected in 
 ## Use in the thesis
 
 As a proposed extension, compare demographic distributions across prompt-modifier conditions only for attributes not fixed by the prompt, justify the reference distribution, and validate the evaluator by group. Report category proportions as well as entropy: identical entropy can conceal different dominant groups. Keep this assessment separate from [[Aesthetic quality]], [[Anatomical realism]], [[Prompt alignment]], and general image diversity.
+
+## Representation versus performance fairness in HEIM
+
+[[Holistic Evaluation of Text-to-Image Models]] distinguishes representation bias from performance gaps under gender/dialect changes. For representation, it samples eight images per prompt. CLIP assigns binary perceived gender, scored by the female proportion’s distance from 0.5. Color-space skin detection maps images to ten Monk Skin Tone categories; their distribution is compared with uniform using L1 distance.
+
+These restricted appearance measures differ from Chen et al.’s VQA/entropy method. Small samples, classification errors, and normative choices of reference distribution require care; neither is a general visual-diversity score. HEIM’s fairness outcome instead measures alignment changes under demographic or word-level dialect substitutions; see [[Prompt perturbation evaluation]].

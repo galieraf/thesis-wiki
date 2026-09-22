@@ -22,6 +22,10 @@ A useful thesis question is whether modifiers improve style representation while
 
 [[A taxonomy of prompt modifiers for text-to-image generation]] places style modifiers among six categories and explicitly notes overlap with [[Quality boosters]]. Artist names, for example, may be used for perceived finish or detail as well as style. Annotate the intended role in context instead of inferring a single role from the phrase alone.
 
+## Six-style benchmark in HEIM
+
+[[Holistic Evaluation of Text-to-Image Models]] appends oil painting, watercolor, pencil sketch, animation, vector graphics, or pixel art to MS-COCO captions. Its narrative identifies Openjourney as strongest for human aesthetic appeal, DALL-E 2 for alignment, and Dreamlike Photoreal for subject clarity. These separate outcomes do not constitute a dedicated style-fidelity judgment. Lower [[Photorealism]] is not necessarily failure when the requested style is non-photographic.
+
 ## Related pages
 
 - [[Prompt engineering]]

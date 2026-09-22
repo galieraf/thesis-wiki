@@ -24,6 +24,10 @@ Keep the prompt intervention explicit: changing a style keyword, a realism modif
 
 [[Prompting AI Art]] distinguishes judging prompts, writing them, and revising them. Its 2022 participants rarely apply specialist modifiers, and most paired image sets do not improve after one revision. This supports studying [[Prompt engineering skill]] but does not establish a learning curve or make specialist keywords universally necessary.
 
+## Promptist evaluation in HEIM
+
+[[Holistic Evaluation of Text-to-Image Models]] compares Promptist + SD1.4 with the base generator and reports better human-rated aesthetics with comparable alignment. Its summary table also shows much lower photorealism/quality win rate for Promptist, illustrating why “better” must name an outcome. This evaluates a full learned rewriting system, not isolated modifier effects. See [[Holistic text-to-image evaluation]].
+
 ## Related pages
 
 - [[Style modifiers]]

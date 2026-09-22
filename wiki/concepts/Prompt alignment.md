@@ -20,6 +20,10 @@ Specify which reference is being used: the original user request, the edited pro
 
 [[Pick-a-Pic - An Open Dataset of User Preferences for Text-to-Image Generation]] reports that PickScore sometimes chooses more aesthetically pleasing images at the cost of faithfulness. Its ranking experiment’s CLIP-based alignment checks remain automatic proxies. Use [[PickScore preference prediction]] as a preference outcome alongside explicit alignment measurements, rather than treating higher preference as proof of preserved intent.
 
+## Broad alignment and compositional reasoning in HEIM
+
+[[Holistic Evaluation of Text-to-Image Models]] uses five-point human alignment judgments across general, knowledge, and reasoning scenarios, alongside CLIPScore and diagnostic object detection. The best PaintSkills detection result is 47.2%, illustrating why strong general alignment does not guarantee correct counts or relations. [[Prompt perturbation evaluation]] separately checks changes across wording, demographic terms, and translations.
+
 ## Related pages
 
 - [[Emotional expression in generated images]]

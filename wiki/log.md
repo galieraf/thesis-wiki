@@ -57,3 +57,12 @@
 - Updated [[Aesthetic quality]], [[Prompt alignment]], [[Prompt modifiers]], [[Random seeds and generation variability]], [[Human evaluation of generated images]], [[CLIP-based alignment evaluation]], and [[Pairwise aesthetic preference ranking]]; updated [[wiki/index|the index]].
 - Distinguished experimental dataset counts from later releases, prompt-disjoint from user-disjoint splits, tie-aware accuracy from ordinary accuracy, and aggregate ranking correlations from per-image agreement. Qualified the “superhuman” claim and the ambiguously labeled training-seed spread.
 - Kept seed/template selection gains separate from causal modifier effects and dedicated alignment/diversity outcomes. Left all files in `raw/` unchanged; external source-linked resources were not independently inspected.
+
+## 2026-09-22 — Ingest Lee et al. (2023), HEIM
+
+- Read [[raw/papers/lee2023heim.pdf]], including scenario/metric/model details and the human-evaluation appendix, and created [[Holistic Evaluation of Text-to-Image Models]] with the required paper sections.
+- Inspected existing pages before adding [[Holistic text-to-image evaluation]], [[Prompt perturbation evaluation]], [[Photorealism]], and [[Perceived originality in generated images]].
+- Updated [[Style modifiers]], [[Prompt engineering]], [[Aesthetic quality]], [[Prompt alignment]], [[Human evaluation of generated images]], [[CLIP-based alignment evaluation]], and [[Demographic diversity and bias]]; updated [[wiki/index|the index]].
+- Preserved the 2023 model/version scope and distinguished metric win rates, human ratings, photorealism, aesthetics, representation bias, and performance fairness. Recorded the Promptist outcome trade-off and the lack of a dedicated visual-diversity measure.
+- Flagged incomplete correlation reporting, the headline metric-count/Table 3 discrepancy, and editorial artifacts in Appendix B.2. Kept perceived originality separate from proven novelty or legal conclusions.
+- Left all files in `raw/` unchanged. External source-linked benchmark/code resources were not independently inspected.

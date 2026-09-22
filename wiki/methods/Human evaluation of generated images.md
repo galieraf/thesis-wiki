@@ -51,6 +51,12 @@ Professional annotators also label body parts good, bad, or invisible for [[Anat
 
 Repeated app interactions retain a winning image and replace its competitor, so observations can share users, prompts, and images. Record these dependencies when designing uncertainty estimates. See [[Human preference in image generation]] and [[PickScore preference prediction]] for split construction and tie handling.
 
+## Anchored ratings in HEIM
+
+[[Holistic Evaluation of Text-to-Image Models]] uses five distinct MTurk Masters per sample, at least 100 images per aspect, and explicit verbal anchors. Alignment progresses from no match to exact match; aesthetics from unappealing to highly appealing; originality from overfamiliar to highly creative. Subject clarity has three options (unclear, uncertain, clear). Photorealism mixes 100 real with 100 generated images and uses five response categories.
+
+The paper reports $0.02 per question, an intended $16/hour, and $13,433.55 total cost. It notes higher variability in aesthetics/originality but supplies no numerical inter-rater reliability in the text. Its metric-based model win rates should not be mistaken for direct human pairwise votes. See [[Photorealism]], [[Perceived originality in generated images]], and [[Holistic text-to-image evaluation]].
+
 ## Related pages
 
 - [[Style modifiers]]

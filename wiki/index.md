@@ -16,6 +16,8 @@
 
 - [[Pick-a-Pic - An Open Dataset of User Preferences for Text-to-Image Generation]] — Kirstain et al. (2023): real-user pairwise preferences, PickScore, generator rankings, and selection across seeds and prompt templates.
 
+- [[Holistic Evaluation of Text-to-Image Models]] — Lee et al. (2023): HEIM compares 26 systems across twelve aspects and 62 scenarios with human and automated metrics.
+
 ## Concepts
 
 - [[Prompt engineering]]
@@ -42,6 +44,9 @@
 
 - [[Human preference in image generation]]
 
+- [[Photorealism]]
+- [[Perceived originality in generated images]]
+
 ## Methods and evaluation
 
 - [[Human evaluation of generated images]]
@@ -63,6 +68,9 @@
 
 - [[PickScore preference prediction]]
 - [[Best-of-N image selection]]
+
+- [[Holistic text-to-image evaluation]]
+- [[Prompt perturbation evaluation]]
 
 ## Maintenance
 
